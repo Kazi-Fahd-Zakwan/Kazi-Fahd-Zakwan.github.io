@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="hf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A2A2A"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="hs" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#C0C0C0"/>
+      <stop offset="100%" stop-color="#D0D0D0"/>
+    </linearGradient>
+    <linearGradient id="ht" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#888888"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#BFA060" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#D4AF71"/>
+      <stop offset="50%"  stop-color="#F0D090"/>
+      <stop offset="70%"  stop-color="#D4AF71"/>
+      <stop offset="100%" stop-color="#BFA060" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="#050505"/>
+  <polygon points="100,16 174,58 174,142 100,184 26,142 26,58" fill="url(#hf)"/>
+  <polygon points="100,16 174,58 174,142 100,184 26,142 26,58" fill="none" stroke="url(#hs)" stroke-width="2.5"/>
+  <line x1="100" y1="16"  x2="100" y2="184" stroke="#FFF" stroke-width="0.4" opacity="0.1"/>
+  <line x1="26"  y1="100" x2="174" y2="100" stroke="#FFF" stroke-width="0.4" opacity="0.1"/>
+  <line x1="26"  y1="58"  x2="174" y2="142" stroke="#FFF" stroke-width="0.3" opacity="0.06"/>
+  <line x1="174" y1="58"  x2="26"  y2="142" stroke="#FFF" stroke-width="0.3" opacity="0.06"/>
+  <polygon points="100,16 174,58 100,100 26,58" fill="#FFFFFF" opacity="0.025"/>
+  <line x1="32" y1="100" x2="168" y2="100" stroke="url(#gold)" stroke-width="1" opacity="0.75"/>
+  <text x="100" y="100" text-anchor="middle" fill="url(#ht)"
+        font-size="58" font-family="'Arial Black','Helvetica Neue',Impact,sans-serif"
+        font-weight="900" font-style="italic" letter-spacing="-2" dy=".35em">KFZ</text>
+  <polygon points="100,10 102,20 100,30 98,20" fill="#FFF" opacity="0.9"/>
+  <polygon points="100,170 102,180 100,190 98,180" fill="#FFF" opacity="0.9"/>
+  <polygon points="18,100 28,102 38,100 28,98" fill="#FFF" opacity="0.9"/>
+  <polygon points="162,100 172,102 182,100 172,98" fill="#FFF" opacity="0.9"/>
+</svg>
